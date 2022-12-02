@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(45deg, #49a09d, hsl(270, 20%, 4%));
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: ivory;
+  margin: auto;
+  padding: 0%;
+}
+
+table { 
+  text-align: center;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(58, 87, 87);
+  border-collapse: collapse;
+  width: 70%;
+}
+
+
+tr th {
+  text-align: center;
+  border: 2px solid rgb(58, 87, 87);
+  background: linear-gradient(45deg, #49a09d, #ff6600); 
+  
+}
+
+th, td {
+  padding: 20px;
+}
+
+tr, td {
+  font-size: calc(16px);
+  text-align: center;
+  padding: 8px;
+}
+
+
+.App {
+  background: linear-gradient(45deg, #49a09d, #ff0000);
+  height: 100%; 
+  text-align: center;
+}
+
+button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {background-color: #49a09d}
+
+button:active {
+  background-color: #49a09d;
+  box-shadow: 0 5px rgb(58, 87, 87);
+  transform: translateY(4px);
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  padding: 16px;
+  width: 99%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-style: bold;
+  font-variant: normal;
+  font-size: calc(16px +2vmin);
+  color: ivory;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: ivory;
+}
+
+input{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+  color: ivory;
+  text-align: center;
+  font-size: large;
+}
+
+
+a{
+  margin: 5px;
+}
+
+
+
+.clickIcon:hover {
+  cursor: pointer;
+  color: rgb(255, 247, 0);
+}
+
+
+footer {
+  margin: 30px;
+  padding-bottom: 30px;
+}
+
+
